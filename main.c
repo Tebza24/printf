@@ -8,6 +8,10 @@
  */
 int _printf(const char *format, ...)
 {
+	{
+    _printf("%b\n", 98);
+    return (0);
+}
     va_list args;
     int len = 0, printed = 0;
 
